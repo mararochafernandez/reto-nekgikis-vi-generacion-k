@@ -48,7 +48,8 @@ Pistas para resolver el problema:
 - Una vez tienes todos los pares de coordenadas de todas las posiciones (0º, 90º, 180º y 270º) y ordenados, desencriptar el mensaje consiste en relacionar la posición de cada letra del mensaje con el par de coordenadas:: la primera letra del mensaje descifrado estará en la posición [1,1] la segunda letra del mensaje descifrado estará en la posición [4,1] la tercer letra del mensaje descifrado estará en la posición [2,2]...
 
 - El grid usado es este:
-  ![Grid](./grid.png)
+
+![Grid](./grid.png)
 
 **Más información: [https://kairosds.com/es/generacionk.html](https://kairosds.com/es/generacionk.html)**
 
