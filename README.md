@@ -18,30 +18,30 @@ Pistas para resolver el problema:
 
 - El código JavaScript podría comenzar y terminar así:
 
-  ```
-  const sideSize = 6;
-  const gridPosBase = [
-    [1, 1],
-    [4, 1],
-    [2, 2],
-    [6, 2],
-    [5, 3],
-    [1, 4],
-    [4, 4],
-    [3, 5],
-    [6, 5],
-  ];
-  const encriptedMessage = 'lróaon. sg sdersoildsu.:.cc kiomamii';
+```
+const sideSize = 6;
+const gridPosBase = [
+  [1, 1],
+  [4, 1],
+  [2, 2],
+  [6, 2],
+  [5, 3],
+  [1, 4],
+  [4, 4],
+  [3, 5],
+  [6, 5],
+];
+const encriptedMessage = 'lróaon. sg sdersoildsu.:.cc kiomamii';
 
-  /*
+/*
 
-  TU CÓDIGO PARA RESOLVERLO
+TU CÓDIGO PARA RESOLVERLO
 
-  */
+*/
 
-  const decryptedMessage = decrypt(encriptedMessage, gridPosBase);
-  console.log(decryptedMessage);
-  ```
+const decryptedMessage = decrypt(encriptedMessage, gridPosBase);
+console.log(decryptedMessage);
+```
 
 - Podemos observar que cada vez que giramos la rejilla 90º en el sentido de las agujas del reloj la primera fila (eje x) pasa a ser la sexta columna (eje y), la segunda fila pasa a ser la quinta columna... y la sexta fila pasa a ser la primera columna.
 
